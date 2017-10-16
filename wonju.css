@@ -207,6 +207,7 @@ section .item .instaitem-wrap {
 section .item instaitem {
     width: 100%;
     display: inline-block;
+    position: relative;
 }
 
 section .item img {
@@ -220,8 +221,13 @@ section .item .instatag {
     width: 100%;
     display: inline-block;
     background-color: white;
+    font-size: 10px;
+    color: gray;
 }
 
+section .item .instatag p:nth-child(1) {
+    height: 50px;
+}
 
 section .carousel {
     width: 75%;
@@ -247,18 +253,14 @@ section .carousel-indicators li {
 
 section .instainfo-wrap {
     width:20%;
-    height: 400px;
+    height: 360px;
     float: right;
 }
 
 section .instainfo-wrap .instaimg {
-    top: -60px;
-    right: -5px;
-    width: 21%;
-    font-size: 18px;
+    top: -15%;
+    width: 20%;
     position: absolute;
-    text-align: right;
-    color: rgba(0, 0, 0, 0.336);
 }
 
 section .instainfo-wrap .insta-text {
@@ -266,6 +268,7 @@ section .instainfo-wrap .insta-text {
     display: inline-block;
     text-align: right;
     bottom: 30px;
+    color: gray;
 }
 
 section .instainfo-wrap .insta-text p:nth-child(1) {
