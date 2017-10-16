@@ -1,0 +1,293 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+@import url(//cdn.jsdelivr.net/nanumsquare/1.0/nanumsquare.css);
+
+/* Nanum Square */
+
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+/* Noto Sans KR */
+
+
+/* You can add global styles to this file, and also import other style files */
+
+* {
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Nanum Myeongjo', 'nanumsquare', 'notosanskr', 'nanummyeongjo';
+}
+
+div {
+    /* border: 1px solid red; */
+}
+
+header .logo,
+.lnb,
+.userform {
+    color: white;
+}
+
+.wrapper {
+    width: 1920px;
+    margin: auto;
+}
+
+header .pos-relative {
+    position: relative;
+}
+
+header .pos-absolute {
+    position: absolute;
+    width: 100%;
+    margin: auto;
+}
+
+header nav {
+    height: 100px;
+    margin: auto;
+}
+
+header .logo {
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+header .logo img {
+    /* text-align: center; */
+    float: left;
+    width: 199px;
+    height: 59px;
+}
+
+header .lnb {
+    margin: auto;
+    margin-left: 200px;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+header .lnb li {
+    margin: auto;
+    text-align: center;
+    float: left;
+    width: 150px;
+    line-height: 70px;
+}
+
+header .userform {
+    float: right;
+    margin-right: 200px;
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+header .userform li:nth-child(2) {
+    text-align: center;
+    width: 30px;
+}
+
+header .caption-img img:nth-child(1) {
+    position: absolute;
+    bottom: 160px;
+    right: -160px;
+}
+
+header .caption-img img:nth-child(2) {
+    position: absolute;
+    bottom: -10px;
+}
+
+header .userform li,
+footer .footermenu li {
+    text-align: center;
+    float: left;
+    line-height: 40px;
+}
+
+.float-right {
+    text-align: right;
+}
+
+.info {
+    padding-top: 50px;
+    width: 1150px;
+    height: 400px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.info div:nth-child(1) {
+    width: 568px;
+    height: 294px;
+    margin: auto;
+    float: left;
+}
+
+.info div:nth-child(2) {
+    width: 568px;
+    height: 294px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: auto;
+    float: right;
+}
+
+.info div:nth-child(2) p:nth-child(1) {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.info div:nth-child(2) p:nth-child(2) {
+    line-height: 29px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.info div:nth-child(3) {
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    border-radius: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin: auto;
+    float: right;
+}
+
+.imgslider {
+    height: 500px;
+    background-color: rgb(231, 231, 231);
+}
+
+.imgslider .slider-wrap {
+    width: 1150px;
+    margin: auto;
+    padding-top: 10px;
+}
+
+section .slider-title {
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+section .imgslider-text-wrap {
+    position: relative;
+}
+
+section .item div {
+    width: 33%;
+    display: inline-block;
+}
+
+section .item img {
+    height: 350px;
+    /* margin-left: 5px; */
+}
+
+section .carousel {
+    width: 75%;
+    height: 400px;
+}
+
+section .carousel-indicators {
+    bottom: -5px;
+}
+
+section .carousel-indicators li {
+    background-color: rgb(98, 0, 255);
+}
+
+.carousel-control .glyphicon-chevron-left {
+    left: -20%;
+}
+
+.carousel-control .glyphicon-chevron-right {
+    right: -20%;
+}
+
+section .instaimg {
+    position: absolute;
+    top: -60px;
+    right: 10px;
+}
+
+section .insta-text {
+    font-size: 18px;
+    width: 235px;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.336);
+}
+
+section .insta-text p:nth-child(1) {
+    font-weight: bold;
+    color: black;
+}
+
+section .insta-text div {
+    text-decoration-line: underline;
+}
+
+footer {
+    margin: auto;
+    width: 1150px;
+    height: 200px;
+}
+
+footer div {
+    /* border: 1px solid rebeccapurple; */
+}
+
+footer .footermenu {
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 80px;
+}
+
+footer .footer-logo {
+    display: inline-block;
+}
+
+footer .footermenu li:nth-child(2n) {
+    text-align: center;
+    width: 40px;
+}
+
+footer .footertext {
+    width: 700px;
+    text-align: right;
+    float: right;
+}
+
+footer .footertext div:nth-child(1) {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+footer .footertext div:nth-child(5) {
+    font-size: 7px;
+    color: rgba(0, 0, 0, 0.336);
+}
+
+footer .padding-t5 {
+    padding-top: 5px;
+}
+
+footer .padding-b5 {
+    padding-bottom: 5px;
+}
